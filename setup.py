@@ -1,7 +1,7 @@
 from setuptools import setup
 from duckduckgo import __version__
 
-long_description = open('README.rst').read()
+long_description = open('README.rst', encoding='utf8').read()
 
 setup(name='duckduckgo2',
       version=__version__,
